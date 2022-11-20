@@ -44,8 +44,6 @@ jobs:
           cp ./aaa.mobileprovision ~/Library/MobileDevice/Provisioning\ Profiles
           cp ./bbb.mobileprovision ~/Library/MobileDevice/Provisioning\ Profiles
 
-      - name: install certificate 
-        run : ./development.cer
 
       - name : build archive
         run: |
